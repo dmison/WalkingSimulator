@@ -4,7 +4,7 @@ extends RayCast3D
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	var object = get_collider()
 	interact_prompt_label.text = ""
 	
