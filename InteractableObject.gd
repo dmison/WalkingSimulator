@@ -5,5 +5,5 @@ extends Node3D
 @export var can_interact : bool = true
 
 func _interact():
-	print("override this function")
-	
+    print("override this function")
+    
